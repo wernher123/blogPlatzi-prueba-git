@@ -1,0 +1,22 @@
+ls //muestra carpetas
+ls -al //muestra todo con ocultos
+touch vacio.txt
+
+history muestra historial de comandos
+
+cat textoVacio.txt
+
+rm vacio.txt // borra archivo
+
+git init
+
+git status
+
+git add texto practica.txt //va siempre antes del commit
+git rm texto practica.txt
+
+git commit -m "primer commit de texto practica"
+
+git config --global user.name "wernher"
+git config --global user.email "wernher@etc" // esos para q se pueda hacer el commit, le dices quien hizo el 												commit
+git add . //add a todo a todo luego commit
