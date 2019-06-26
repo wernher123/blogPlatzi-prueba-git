@@ -25,4 +25,6 @@ git add . //add a todo a todo luego commit
 
 git log "texto practica.txt" //para ver la historia del archivo (todos sus commit), lo carga desde el mas reciente
 
-git show "texto practica.txt" //muestra los cambios q hubieron sobre un archivo, muestra el ultimo commit, el antes con un - y el actual con un +
+git show "texto practica.txt" //muestra los cambios q hubieron sobre un archivo, muestra el ultimo commit, el antes con un - y el nuevo cambio con un +
+
+git diff el_num_del_commit el_num_delOtroCommit //compara los commit
