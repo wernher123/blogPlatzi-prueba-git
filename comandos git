@@ -1,5 +1,7 @@
 ls //muestra carpetas
 ls -al //muestra todo con ocultos
+
+mkdir // crea carpetas
 touch vacio.txt
 
 history muestra historial de comandos
@@ -12,11 +14,15 @@ git init
 
 git status
 
-git add texto practica.txt //va siempre antes del commit
-git rm texto practica.txt
+git add "texto practica.txt" //va siempre antes del commit, "" por si el nombre del txt tiene espacios
+git rm "texto practica.txt" // remover el archivo
 
 git commit -m "primer commit de texto practica"
 
 git config --global user.name "wernher"
 git config --global user.email "wernher@etc" // esos para q se pueda hacer el commit, le dices quien hizo el 												commit
 git add . //add a todo a todo luego commit
+
+git log "texto practica.txt" //para ver la historia del archivo (todos sus commit), lo carga desde el mas reciente
+
+git show "texto practica.txt" //muestra los cambios q hubieron sobre un archivo, muestra el ultimo commit, el antes con un - y el actual con un +

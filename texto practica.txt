@@ -2,3 +2,5 @@ texto practica git
 miercoles 2106/2019
 
 platzi txt
+
+texto agregado para mas commit
