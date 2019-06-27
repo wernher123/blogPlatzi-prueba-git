@@ -24,6 +24,7 @@ git config --global user.email "wernher@etc" // esos para q se pueda hacer el co
 git add . //add a todo luego commit
 
 git log "texto practica.txt" //para ver la historia del archivo (todos sus commit), lo carga desde el mas reciente
+git log --stat
 
 git show "texto practica.txt" //muestra los cambios q hubieron sobre un archivo, muestra el ultimo commit, el antes con un - y el nuevo cambio con un +
 
