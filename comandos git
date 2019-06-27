@@ -28,3 +28,9 @@ git log "texto practica.txt" //para ver la historia del archivo (todos sus commi
 git show "texto practica.txt" //muestra los cambios q hubieron sobre un archivo, muestra el ultimo commit, el antes con un - y el nuevo cambio con un +
 
 git diff el_num_del_commit el_num_delOtroCommit //compara los commit
+
+git reset 8e82b0b14dac98d206d7b3ffe741123758196713 --hard //regresa a ese commit, borrando todo lo posterior
+git reset 8e82b0b14dac98d206d7b3ffe741123758196713 --soft
+
+git checkout 8e82b0b14dac98d206d7b3ffe741123758196713 "texto practica.txt" // trae el archivo de ese commit a  		esa version, si se hace commit, lo modifica
+git checkout master "texto practica.txt" //trae el de master
