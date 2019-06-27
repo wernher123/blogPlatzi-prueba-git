@@ -37,3 +37,6 @@ git checkout 8e82b0b14dac98d206d7b3ffe741123758196713 "texto practica.txt" // tr
 git checkout master "texto practica.txt" //trae el de master solo afectan a ese archivo
 
 git commit -am "mensaje del commit etc"//hace el git add de los cambios, solo funcina con archivos a los que se hicieron add antes
+
+git branch cabecera //crea la cabecera, pero no se mueve a ella
+git checkout cabecera //se mueve a otra rama
